@@ -3,12 +3,14 @@
 Exercise to practice for interviews
 
 ## Context
+
 Write a function in C that inserts a number into a sorted singly linked list.
 
-* Prototype: `listint_t *insert_node(listint_t **head, int number);`
-* Return: the address of the new node, or `NULL` if it failed
+- Prototype: `listint_t *insert_node(listint_t **head, int number);`
+- Return: the address of the new node, or `NULL` if it failed
 
 Entry point:
+
 ```
 #include <stdlib.h>
 #include <string.h>
@@ -48,6 +50,7 @@ int main(void)
 ```
 
 Response:
+
 ```
 $ gcc -Wall -Werror -Wextra -pedantic 0-main.c linked_lists.c 0-insert_number.c -o insert
 $ ./insert
@@ -69,5 +72,5 @@ $ ./insert
 98
 402
 1024
-$ 
+$
 ```
